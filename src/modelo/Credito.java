@@ -23,7 +23,7 @@ public class Credito extends Tarjeta
 		m.setImporte(x);
 		mMovimientos.addElement(m);
 		if (x>getCreditoDisponible())
-			throw new Exception("Cr�dito insuficiente");
+			throw new Exception("Credito insuficiente");
 	}
 	
 	public void ingresar(double x) throws Exception 
